@@ -1,0 +1,311 @@
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+.back{
+
+}
+
+
+#mySwiper1 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    
+  }
+
+  
+#mySwiper1 .swiper-wrapper .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    
+    background-color: black;
+    
+  }
+
+ 
+#mySwiper1 .swiper-wrapper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    width: 100%;
+height: 100%;
+object-fit: cover;
+position: absolute;
+background-attachment: fixed;
+
+z-index: 1;
+object-position: center;
+opacity: 0.5;
+
+
+
+  }
+  .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: 
+
+    rgb(20, 77, 240,0.3)
+    ;
+    
+  }
+
+
+
+  
+
+ /* elaqeler olan hisse */
+
+ .main-bottom{
+
+ background-color: #B4B4B4;
+ padding:5rem;
+  
+ }
+ .main-bottom .row{
+  
+  display: flex;
+  
+ 
+
+ }
+  .contacts-hero {
+    position: relative;
+    width: 100%;
+
+   
+   
+  
+    z-index: 77777;
+    color:aliceblue ;
+    background-color: #B6B6B6;
+    padding: 1rem;
+   
+
+
+
+ 
+  }
+  .contacts-hero ul{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+
+    gap: 0.5rem;
+  }
+
+  .contacts-hero ul li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #804C00;
+    gap: 0.5rem;
+    
+
+
+  }
+  .contacts-hero ul li i{
+    color: white;
+    padding: 0.5rem;
+    border-radius: 100%;
+    background-color:  rgb(38, 19, 90);
+  }
+
+
+
+
+  /* ikinci swiper card slaydi start */
+
+
+  #mySwiper2 {
+    width: 40%;
+    height: 150px;
+    
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+    
+  
+
+  }
+  .swiper-text{
+    color: #f9df76;
+  }
+  @media only screen and (max-width: 600px){
+    #mySwiper2{
+      width: 60%;
+     
+      margin: auto;
+    }
+    .main-bottom .row{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 0;
+    }
+    .contacts-hero {
+      width: 90%;
+      margin: auto;
+    }
+    .contacts-hero ul{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: left;
+      justify-content: center;
+      font-size: 1.2rem;
+      padding: 1rem;
+    }
+    
+  }
+
+  
+  #mySwiper2 .swiper-wrapper .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 1.1rem;
+    text-indent: 1rem;
+    padding: 1rem;
+    font-weight: bold;
+
+
+  }
+
+  #mySwiper2 .swiper-wrapper .swiper-slide:nth-child(1n) {
+    background: linear-gradient(to right, #804C00 0%, #504003 50%, #804C00 100%);
+
+    color:  #fffbfb ;
+
+  }
+
+  #mySwiper2 .swiper-wrapper .swiper-slide:nth-child(2n) {
+    background: linear-gradient(to right, #7e7c7c 0%, #49494B 50%, #5A5A5C 100%);
+    color: #f9df76;
+  }
+
+  #mySwiper2 .swiper-wrapper .swiper-slide:nth-child(3n) {
+    background: linear-gradient(to right, #7e7c7c 0%, #49494B 50%, #5A5A5C 100%);
+  }
+
+  #mySwiper2 .swiper-wrapper .swiper-slide:nth-child(4n) {
+    background: linear-gradient(to right, #7e7c7c 0%, #49494B 50%, #5A5A5C 100%);
+    color: #fffbfb;
+  }
+
+  #mySwiper2 .swiper-wrapper .swiper-slide:nth-child(5n) {
+    background: linear-gradient(to right, #7e7c7c 0%, #49494B 50%, #5A5A5C 100%);
+    color: #fffbfb;
+  }
+
+
+
+  #mySwiper2 .swiper-wrapper .swiper-slide{
+    
+  }
+#mySwiper2 .swiper-wrapper .swiper-slide img{
+  object-fit: contain;
+  width: 100%;
+  height: 100vh;
+  object-position: center;
+  transition: all 0.5s;
+}
+#mySwiper2 .swiper-wrapper .swiper-slide img:hover{
+
+
+}
+    /* ikinci swiper card slaydi end */
+
+  /* hero text header text */
+  .hero-text{
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    z-index: 999999;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+
+  }
+  .hero-text-main{
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: 800;
+    opacity: 0;
+    text-align: center;
+    animation-name: text-header-anim;
+    animation-delay: 0.5s;
+    animation-direction: normal;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-delay:0.5;
+
+
+  }
+  .hero-text-span{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: aliceblue;
+    text-align: center;
+    animation-name: text-span-anim;
+    animation-delay: 0.3;
+    animation-duration: 3s;
+
+  }
+
+  .button{
+ 
+    color: white;
+    padding: 1rem 1.5rem;
+    background-color: #804C00;
+    border-radius: 20px;
+    font-weight: 500;
+  }
+  @keyframes text-header-anim{
+    from{
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+
+  }
+  @keyframes text-span-anim{
+    from{
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to{
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @media only screen and (max-width: 600px){
+    .hero-text-main{
+      font-size: 2rem;
+    }
+    .hero-text-span{
+      font-size: 1.5rem;
+     
+
+    }
+  }

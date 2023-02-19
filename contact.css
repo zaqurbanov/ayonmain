@@ -1,0 +1,54 @@
+.container-section{
+
+
+
+}
+.contact-section .row{
+    align-items: center;
+    justify-content: space-between;
+padding: 7rem 0;
+}
+
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contact-icon{
+
+    font-size: 4rem;
+    background-color:  #FDCA01;
+    padding: 2rem;
+    border-radius: 100%;
+}
+
+.contact-icon i{
+z-index: 55;
+color: #804C00;
+
+}
+
+.contact-header{
+
+
+}
+.contact-header h3{
+
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.contact-body{
+text-align: center;
+
+}
+
+.contact-body p{
+font-size: 1.2rem;
+font-weight: 700;
+
+}
+

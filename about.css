@@ -1,0 +1,76 @@
+.page-header{
+
+
+
+    height: 50vh;
+    background-image: linear-gradient(rgba(31, 48, 137, 0.5),rgba(81, 86, 10, 0.4)), url(hero2.jpg);
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: 20%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.page-header h2{
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.about-section{
+    width: 100%;
+  
+    position: relative;
+  
+}
+.about-section .container-md{
+
+
+}
+.about-section .row{
+    padding: 10rem 0;
+}
+.left-row{
+    flex: 1;
+
+}
+
+
+.left-row h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: inline-block;
+    padding-bottom: 1rem;
+    border-bottom: 10px solid #804C00;
+    
+}
+.about-text{
+    padding: 1.5rem;
+    text-indent: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.right-row{
+    flex: 1;
+    overflow: hidden;
+}
+.right-row img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.7s;
+    border: 5px solid blue;
+    
+}
+.right-row img:hover{
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 800px) {
+    .about-section .row{
+        flex-direction: column;
+    }
+}

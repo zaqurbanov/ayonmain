@@ -27,9 +27,51 @@
 }
 .contact span{
     font-weight: 500;
+    min-width: 200px;
+border-bottom: 1px solid rgba(183, 183, 183,0.3);
+text-align: center;
+padding: 1rem;
+ transition: all 0.5s;
 }
 .logo{
  margin-left: 2%;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    
+}
+.footer-list-head{
+color: #FDCA01;
+font-weight: 700;
+}
+.footer-list li a{
+    color: white;
+    font-weight: 500;
+    transition: all 0.2s;
+ 
+    display: block;
+}
+.footer-list li{
+min-width: 200px;
+border-bottom: 1px solid rgba(183, 183, 183,0.3);
+text-align: center;
+padding: 1rem;
+ transition: all 0.5s;
+ 
+}
+.footer-list li:hover {
+    padding-left: 7px;
+    width: 100%;
+}
+.footer-list li a:hover{
+    color: #FDCA01;
+    
+}
+.logo11 img{
+    width: max(70px,15vw);
 }
 
 @media only screen and (max-width: 600px){

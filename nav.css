@@ -4,7 +4,7 @@ nav{
     position: absolute;
     z-index: 99;
     line-height: 2rem;
-    background: linear-gradient(to right, #ffffff 0%, #49494B 50%, #5A5A5C 100%);
+    background: linear-gradient(to right, #e2dbdb 10%, #49494B 50%, #5A5A5C 100%);
 }
 .logo{
     width: max(70px,5vw);

@@ -32,6 +32,7 @@
 }
 .about-section .row{
     padding: 10rem 0;
+    align-items: center;
 }
 .left-row{
     flex: 1;
@@ -57,10 +58,13 @@
 .right-row{
     flex: 1;
     overflow: hidden;
+    height: 400px;
 }
 .right-row img{
     width: 100%;
     height: 100%;
+    
+    object-position: center;
     transition: all 0.7s;
     border: 5px solid blue;
     
@@ -72,5 +76,18 @@
 @media only screen and (max-width: 800px) {
     .about-section .row{
         flex-direction: column;
+        gap: 2rem;
+
+    }
+    .left-row{
+        width: 100%;
+    }
+    .right-row{
+        width: 100%;
+       height: 200px;
+
+    }
+    .right-row img{
+        min-height: 250px;
     }
 }

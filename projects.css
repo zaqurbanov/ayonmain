@@ -1,0 +1,107 @@
+.projects-section{
+padding: 10rem 0;
+}
+.projects-section .row{
+
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+}
+
+.project-card{
+
+position: relative;
+width: 48%;
+height: 350px;
+overflow: hidden;
+
+text-align: center;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.project-card-img{
+width: 100%;
+height: 100%;
+position: relative;
+overflow: hidden;
+transition: all 0.5s;
+}
+.project-card-img img{
+
+width: 100%;
+height: 100%;
+transition: all 0.5s;
+
+}
+.project-icon{
+    background-color: #AB7700;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 100%;
+}
+.project-name{
+    height: 50px;
+    background-color: #AB7700;
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 55555;
+    transition: all 1s;
+}
+.project-card-img:hover .project-name{
+
+    left: 100%;
+}
+
+.project-overlay{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0,0.5);
+    transition: all 1s;
+}
+.project-overlay h3{
+    color: white;
+    font-size: 1.5rem;
+    align-items: center;
+}
+.project-overlay h5{
+    color: aliceblue;
+    font-size: 1rem;
+    align-items: center;
+}
+.project-card-img:hover .project-overlay{
+    top: 0%;
+}
+.project-button{
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 1rem 2rem;
+    background-color: #AB7700;
+   border-radius: 4px;
+   transition: 0.5s;
+
+}
+.project-button:hover{
+    background-color: #855200;
+}
+@media only screen and (max-width: 600px){
+    .project-card{
+        width: 90%;
+    }
+}

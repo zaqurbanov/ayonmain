@@ -2,8 +2,11 @@ ScrollReveal({reset:true});
 
 ScrollReveal().reveal('.logo',{delay:500 });
 ScrollReveal().reveal('.left-row',{delay:500 });
-ScrollReveal().reveal('.right-row',{delay:1000 });
-ScrollReveal().reveal('.page-header h2',{delay:1000 });
+ScrollReveal().reveal('.right-row',{delay:122 });
+ScrollReveal().reveal('.page-header h2',{delay:122 });
+//delay 500 olundu
+
+ScrollReveal().reveal('.page-header h2',{delay:500 });
 
 
 

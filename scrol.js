@@ -6,6 +6,7 @@ ScrollReveal().reveal('.right-row',{delay:1000 });
 ScrollReveal().reveal('.page-header h2',{delay:1000 });
 
 
+
 ScrollReveal().reveal('.list',{delay:100});
 ScrollReveal().reveal('.mySwiper',{delay:100})
 ScrollReveal().reveal('.footer',{delay:150});
